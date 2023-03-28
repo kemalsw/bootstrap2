@@ -1,59 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <title>Document</title>
 </head>
-<body>
-   <div class="ust">
-    <table style="width: 120%;" >
-        <tr>
+<body style="background-color:#E9ECEF;">
 
-          <td><a href="">Gmail</a></td>
-          <td><a href="">Görseller</a></td>
-          <td><a href="">......</a></td>
-          <td><a href="" class="oturum" style="width: 50px;">Oturum Açın</a></td>
-        </tr>
-    </table>
-    
-   </div>
-    <div>
+    <nav class="navbar  navbar-expand-lg navbar-light bg-secondary">
+        <a class="navbar-brand text-danger" href="index.html"> Müzik dükkanım </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
 
-    <img src="resimler/logo.png" class="resim">
-   </div>
-   
-   <div class="ilk">
-    
-    <input class="cubuk"type="text" /><br>
-    <br><br>
-    <button type="submit"  class="search">Google'da Ara</button>
-    <button type="submit" class="lucky" >Kendimi Şanslı Hissediyorum</button>
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Anasayfa <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="hakkimizda.html">Hakımızda</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="urunlerimiz.html">Ürünlerimiz</a>
+            </li>
 
-   </div>
-<br><br><br><br><br><br>
-  <div class="foot" style="text-align:center">
-   <a href="">Türkiye</a>
-  </div>
-  <div class="foott">
-    <div class="son">
-   <a href="" style="text-decoration: none;"> Hakkımızda</a> &nbsp; &nbsp; &nbsp;    <a href="" style="text-decoration: none;" > İşletme </a> &nbsp; &nbsp; &nbsp;   <a href="" style="text-decoration: none;" >Arama nasıl çalışır ?</a>
-  </div>
-   <div class="eklem">
-  <a href=""  style="text-decoration: none;">2007 den bu yana karbon nötr</a>
- </div>
- <div class="gizli">
-  <a href="" style="text-decoration: none;" >Gizlilik</a>&nbsp; &nbsp; &nbsp; 
-  <a href="" style="text-decoration: none;">Şartlar</a>&nbsp; &nbsp; &nbsp; 
-  <a href="" style="text-decoration: none;">Şartlar</a>
- </div>
- </div>
+        </ul>
 
-  
-    
+    </div>
+        
 
+    </nav>
+    <div class="jumbotron">
+        <h1 class="display-4 text-center text-danger mb-3">Merhaba</h1>
+        <p class="lead ml-5">Müzik Dükanı sitemize hoşgeldiniz bu sitede müzk aletleri bulabilirsiniz.Uygun fiyatlı ve
+            kaliteli
+            ürünlerimiz için <a href="ürünler.html">Ürünlerimiz </a>sayfamızı ziyaret edebilirsiniz
 
-</body> 
+        </p>
+
+        <h2 class="text-warning text-center mt-3">Sitemizde bulunan ürünler</h2>
+
+        <ul class="text-center list-group list-inline mt-3">
+            <li> Lorem ipsum dolor sit.</li>
+            <li>Corrupti doloremque omnis rem!</li>
+            <li>Et sit asperiores cumque.</li>
+            <li>Architecto est voluptates illum.</li>
+        </ul>
+        <p class="lead text-center mt-3">
+            <a class="btn btn-primary btn-lg" href="hakımızda.html" role="button">Hakımızda </a>
+        </p>
+    </div>
+</body>
 </html>
